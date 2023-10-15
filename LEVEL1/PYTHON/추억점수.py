@@ -4,6 +4,7 @@ def solution(name, yearning, photo):
     for n, y in zip(name, yearning):
         dict[n] = y
 
+    dict["may"] == dict.get("may")
     answer = []
     for p in photo:
         s = 0
