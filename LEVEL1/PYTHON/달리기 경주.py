@@ -2,10 +2,12 @@ def solution(players, callings):
     rank = {}
     for i, player in enumerate(players):
         rank[i] = player
+        #{rank : name}
 
     name = {}
     for i, player in enumerate(players):
         name[player] = i
+        #{name : rank}
 
     for call in callings:
         # call: 불린 선수 name
